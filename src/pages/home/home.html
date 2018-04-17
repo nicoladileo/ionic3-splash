@@ -1,17 +1,20 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex' : 'none'">
+  <div class="flb">
+    <img class="img-screen" src="assets/imgs/logo.svg">
+  </div>
+</div>
+
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar color="primary">
+    <ion-title>Gallery</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-slides class="image-slider" loop="true" slidesPerView="2">
+    <ion-slide *ngFor="let img of images">
+      <img src="assets/imgs/{{img}}" class="thumb-img" imageViewer/>
+      <p class="label-img">{{img}}</p>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
