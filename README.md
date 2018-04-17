@@ -7,8 +7,9 @@
 
 ## App screenshots
 <div>
-    <img src="https://github.com/nicoladileo/ionic3-splash/blob/master/screen1.png" align="center" height="350" width="500">
-    <img src="https://github.com/nicoladileo/ionic3-splash/blob/master/screen2.png" align="center" height="350" width="500">
+    <img src="https://github.com/nicoladileo/ionic3-splash/blob/master/screen1.png" align="center" height="200" width="500">
+    <br/>
+    <img src="https://github.com/nicoladileo/ionic3-splash/blob/master/screen2.png" align="center" height="200" width="500">
 </div>
 
 ## Thanks to 
